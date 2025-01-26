@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Afro Samurai Portfolio</title>
+    <link rel="stylesheet" href="stylestyle.css">
+    <script src="script.js"></script> <!--link html and css to javascript-->
+    <script src="https://kit.fontawesome.com/0aa1ccb2c8.js" crossorigin="anonymous"></script> <!--fontawesome-->
+</head> 
+<body>
+
+<div id="container">
+    <div class="header">
+        <nav>
+             <img src="portfoliologo.png" class="logo">
+                <!---I think I need to detach the img from the ul, 
+                    so i can get the porportions correct,
+                    put the background to the right and 
+                    words in the right -->
+              
+              <ul>
+
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Services</a> </li>
+                <li><a href="#">Portfolio</a> </li>
+                <li><a href="#">Contact</a> </li>
+
+                
+              </ul>
+            
+            </nav>
+            <div class="header-text">
+
+                <p>Junior Developer</p>
+                <h1>Hello! I'm J<span>aluan</span><br>From Chicago</h1>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+<!--about-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                      I am a Product Manager, Customer Success Manager,Accessibility Consultant<br> and Much More. 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Product Management</span><br>Cross-Functional Collaboration</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Consulting</span><br>Building applications</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Junior Developer/Consultant at I.C.Stars</li>
+                            <li><span>2024</span><br>Retail Manager at Target</li>
+                            <li><span>2017-2023</span><br>Food Manager at AAFES</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BBA</span><br>Washburn University</li>
+                            <li><span>AA</span><br>Cloud County Community College</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------services-->
+<div id="services">
+    <div id="container2">
+       <h1 class="sub-title">My Services</h1>
+       <div class="services-list">
+        <div>
+            <i class="fa-solid fa-terminal"></i>
+            <h2>Web Development</h2>
+            <p></p>
+            <a href="#">Learn More</a>
+        </div>
+       <div>
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <h2>Analyze Metrics</h2>
+            <p></p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-icons"></i>
+            <h2>Software Prototyping</h2>
+            <p></p>
+            <a href="#">Learn More</a>
+        </div>
+       </div>
+    </div>
+</div>
+<!------------------portfolio--------------------> 
+<div id="portfolio" 
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="">
+            </div>
+            <div class="work">
+                <img src="">
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
